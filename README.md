@@ -31,7 +31,32 @@
 
 The notebook uses the popular **UCI Heart Disease dataset**:
 - the dataset is linked as csv
+---
 
+## 📊 Dataset Overview
+
+The dataset includes the following features:
+
+| Feature     | Description                                    |
+|-------------|------------------------------------------------|
+| age         | Age of the patient                             |
+| sex         | Sex (1 = male; 0 = female)                     |
+| cp          | Chest pain type (0–3)                          |
+| trestbps    | Resting blood pressure (mm Hg)                 |
+| chol        | Serum cholesterol in mg/dl                     |
+| fbs         | Fasting blood sugar > 120 mg/dl (1 = true; 0 = false) |
+| restecg     | Resting electrocardiographic results           |
+| thalach     | Maximum heart rate achieved                    |
+| exang       | Exercise-induced angina (1 = yes; 0 = no)      |
+| oldpeak     | ST depression induced by exercise relative to rest |
+| slope       | Slope of the peak exercise ST segment          |
+| ca          | Number of major vessels (0–3) colored by fluoroscopy |
+| thal        | Thalassemia type (3 = normal; 6 = fixed defect; 7 = reversible defect) |
+| target      | Target variable (1 = heart disease, 0 = no disease) |
+
+## 🧠 Goal
+
+Train a classification model to accurately predict the `target` (presence of heart disease) using supervised learning algorithms.
 
 ---
 
